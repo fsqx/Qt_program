@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/">
+        <file>LoginWidget.css</file>
+        <file>qrc/passwd.jpg</file>
+        <file>qrc/passwd-20x20.jpg</file>
+        <file>qrc/user-20x20.jpg</file>
+        <file>qrc/关闭.png</file>
+        <file>qrc/最小化.png</file>
+        <file>head.h</file>
+        <file>LoginLogic.cpp</file>
+        <file>LoginLogic.h</file>
+        <file>LoginWidget.cpp</file>
+        <file>LoginWidget.h</file>
+        <file>qrc/pushbottom.jpg</file>
+        <file>qrc/user.jpg</file>
+        <file>qrc/background.jpg</file>
+    </qresource>
+</RCC>

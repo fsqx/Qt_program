@@ -1,0 +1,80 @@
+*{font-family:Microsoft YaHei;}
+QWidget
+{
+        background-color: rgb(88, 88, 88);
+}
+
+QLineEdit#le_getUID
+{
+        background:rgb(246, 246, 246);
+        padding-left:5px;
+        padding-top:1px;
+        border-radius:5px;
+        border:1px solid rgb(209, 209, 209);
+        border-top:transparent;
+        padding-left:30px;
+        background-image: url(:/qrc/user-20x20.jpg);
+        background-repeat:no-repeat;
+        background-position:left;
+
+
+
+
+}
+
+QLineEdit#le_getPasswd
+{
+        background:rgb(246, 246, 246);
+        padding-left:5px;
+        padding-top:1px;
+        border-radius:5px;
+        border:1px solid rgb(209, 209, 209);
+        border-top:transparent;
+        background-image: url(:/qrc/passwd-20x20.jpg);
+        background-repeat:no-repeat;
+        background-position:left;
+}
+
+QPushButton#pb_login
+{
+
+    color:white;
+    background-color:rgb(14 , 150 , 254);
+    border-radius:5px;
+}
+
+QPushButton#pb_login:hover
+{
+    color:white;
+    background-color:rgb(44 , 137 , 255);
+}
+
+QPushButton#pb_login:pressed
+{
+    color:white;
+    background-color:rgb(14 , 135 , 228);
+    padding-left:3px;
+    padding-top:3px;
+}
+
+QPushButton#pb_register
+{
+
+    color:white;
+    background-color:rgb(14 , 150 , 254);
+    border-radius:5px;
+}
+
+QPushButton#pb_register:hover
+{
+    color:white;
+    background-color:rgb(44 , 137 , 255);
+}
+
+QPushButton#pb_register:pressed
+{
+    color:white;
+    background-color:rgb(14 , 135 , 228);
+    padding-left:3px;
+    padding-top:3px;
+}

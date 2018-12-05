@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>LoginWidget</class>
+ <widget class="QWidget" name="LoginWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>320</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>LoginWidget</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">*{font-family:Microsoft YaHei;}
+QWidget
+{
+	
+	background-color: rgb(150,150,150);
+}
+
+QLineEdit#le_getUID
+{
+        background:rgb(246, 246, 246);
+        padding-left:5px;
+        padding-top:1px;
+        border-radius:5px;
+
+        border-top:transparent;
+        padding-left:30px;
+        background-image: url(:/qrc/user-20x20.jpg);
+        background-repeat:no-repeat;
+        background-position:left;
+		
+		
+        
+
+}
+
+QLineEdit#le_getPasswd
+{
+        background:rgb(246, 246, 246);
+        padding-left:5px;
+        padding-top:1px;
+        border-radius:5px;
+
+        border-top:transparent;
+		padding-left:30px;
+        background-image: url(:/qrc/passwd-20x20.jpg);
+        background-repeat:no-repeat;
+        background-position:left;
+}
+
+QPushButton#pb_login
+{
+
+    color:white;
+    background-color:rgb(14 , 150 , 254);
+    border-radius:5px;
+}
+
+QPushButton#pb_login:hover
+{
+    color:white;
+    background-color:rgb(44 , 137 , 255);
+}
+
+QPushButton#pb_login:pressed
+{
+    color:white;
+    background-color:rgb(14 , 135 , 228);
+    padding-left:3px;
+    padding-top:3px;
+}
+
+QPushButton#pb_register
+{
+
+    color:white;
+    background-color:rgb(14 , 150 , 254);
+    border-radius:5px;
+}
+
+QPushButton#pb_register:hover
+{
+    color:white;
+    background-color:rgb(44 , 137 , 255);
+}
+
+QPushButton#pb_register:pressed
+{
+    color:white;
+    background-color: rgb(50, 50, 50);
+    padding-left:3px;
+    padding-top:3px;
+}
+
+QPushButton#pb_min
+{
+	border:none;
+	background-color: rgb(150,150,150);
+	background-image: url(:/qrc/最小化.png);
+	background-repeat:no-repeat;
+	background-position:center;
+
+}
+
+QPushButton#pb_close
+{
+	border:none;
+	background-color: rgb(150,150,150);
+	background-image: url(:/qrc/关闭.png);
+	background-repeat:no-repeat;
+	background-position:center;
+}
+</string>
+  </property>
+  <widget class="QPushButton" name="pb_close">
+   <property name="geometry">
+    <rect>
+     <x>465</x>
+     <y>7</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pb_min">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>7</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pb_register">
+   <property name="geometry">
+    <rect>
+     <x>255</x>
+     <y>225</y>
+     <width>100</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>注册</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="le_getUID">
+   <property name="geometry">
+    <rect>
+     <x>145</x>
+     <y>130</y>
+     <width>210</width>
+     <height>30</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pb_login">
+   <property name="geometry">
+    <rect>
+     <x>145</x>
+     <y>225</y>
+     <width>100</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>21</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="text">
+    <string>登陆</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="le_getPasswd">
+   <property name="geometry">
+    <rect>
+     <x>145</x>
+     <y>175</y>
+     <width>210</width>
+     <height>30</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
